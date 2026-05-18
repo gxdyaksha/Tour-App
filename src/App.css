@@ -1,0 +1,55 @@
+
+  body {
+  margin: 0;
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+.navbar {
+  background-color: darkblue;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar span {
+  margin-left: 20px;
+}
+
+.main {
+  text-align: center;
+  padding: 25px;
+}
+
+.main h1 {
+  color: darkblue;
+}
+input {
+  padding: 8px;
+  width: 250px;
+  margin: 15px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+  width: 280px;
+  text-align: center;
+}
+
+.card button {
+  margin-right: 10px;
+  padding: 7px 12px;
+}
